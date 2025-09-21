@@ -12,7 +12,7 @@ public class FullResearchPaper implements ResearchPaper {
     }
 
     private void loadPDF() {
-        this.pdfContent = "Loading full PDF content for " + title + "...";
+        this.pdfContent = "Loading PDF content for " + title + "...";
         System.out.println(pdfContent);
     }
 
