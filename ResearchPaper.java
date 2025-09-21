@@ -1,4 +1,5 @@
 public interface ResearchPaper {
     void view();
-    String getAuthorName();   // added in main
+    String getAuthorName();    // from main
+    int getPublicationYear();  // from feature
 }
